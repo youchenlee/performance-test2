@@ -12,3 +12,6 @@
 */
 
 $app->get('/test', ['uses' => 'ExampleController@test']);
+$app->get('/test2', function() {
+    return "Hello world!";
+});
